@@ -3,33 +3,43 @@
   display: flex;
   justify-content: flex-end;
   list-style: none;
- 
+  
+
 }
 
 .header{
+ position: fixed;
+ width: 1200px;
+}
+
+.wrapper{
   display: flex;
   align-content: center;
   justify-content: space-between;
+  height: 80px;
+  background-color: #12121b;
+  
 }
+
 
 .header h1{
   align-self: center;
   justify-content: flex-start;
+  margin-left: 10px;
 }
+
+.header h1 span{
+  font-size: 18px;
+  color: lightcoral;
+}
+
 
 .copyright {
   position: absolute;
   bottom: 0;
 }
 
-.copyright a {
-  text-decoration: none;
-  color: #16a085;
-}
 
-.copyright a:hover {
-  text-decoration: underline;
-}
 
 .button {
   position: relative;
