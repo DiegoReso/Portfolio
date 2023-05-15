@@ -3,6 +3,9 @@
 @import '/css/sectionhome.css';
 @import './sectionabout.css';
 @import './sectionprojects.css';
+@import './footer.css';
+
+
 
 * {
   margin: 0;
