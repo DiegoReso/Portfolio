@@ -17,20 +17,39 @@
   align-content: center;
   justify-content: space-between;
   height: 80px;
-  background-color: #12121b;
+  background-color: #4c4a57;
   
 }
 
 
 .header h1{
+  display: inline-flex;
   align-self: center;
   justify-content: flex-start;
   margin-left: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .3rem;
+  font-size: 7rem;
+  background: url(../images/img2.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff75;
+  animation: move 10s linear infinite;
+  margin-top: 35px;
+  text-shadow: 5px 10px 1px rgb(255, 255, 255);
 }
 
+
+@keyframes move {
+  from {background-position: 0 80%;}
+  to{background-position: 100% 50%;}
+}
+
+
 .header h1 span{
-  font-size: 18px;
+  font-size: 25px;
   color: lightcoral;
+  padding-top: 10px;
 }
 
 
@@ -140,8 +159,8 @@
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: lightcoral;
-  border-right-color: lightcoral;
+  border-bottom-color: rgb(240, 72, 72);
+  border-right-color: rgb(240, 72, 72);
 }
 
 .button.effect3.effect3::before {
@@ -149,16 +168,16 @@
   left: 0;
   border-bottom-color: transparent;
   border-right-color: transparent;
-  border-top-color: lightcoral;
-  border-left-color: lightcoral;
+  border-top-color: rgb(240, 72, 72);
+  border-left-color: rgb(240, 72, 72);
 }
 
 .button.effect3.effect3:hover:after,
 .button.effect3.effect3:hover:before {
-  border-bottom-color: lightcoral;
-  border-right-color: lightcoral;
-  border-top-color: lightcoral;
-  border-left-color: lightcoral;
+  border-bottom-color: rgb(240, 72, 72);
+  border-right-color: rgb(240, 72, 72);
+  border-top-color: rgb(240, 72, 72);
+  border-left-color: rgb(240, 72, 72);
   width: 100%;
   height: 100%;
 }
