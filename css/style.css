@@ -4,7 +4,7 @@
 @import './sectionabout.css';
 @import './sectionprojects.css';
 @import './footer.css';
-
+@import './sectioncontacts.css';
 
 
 * {
@@ -15,6 +15,9 @@
   font-family: Raleway;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0 auto;

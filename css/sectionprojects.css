@@ -1,3 +1,38 @@
 .projects{
-  background-color: blueviolet;
+  background-color: rgb(103, 100, 107);
+  height: 90vh;
+  width: 1200px;
+  position: relative;
+}
+
+.projects h2{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.projects h3{
+  text-align: center;
+}
+
+
+.projects h4{
+  display: inline-flex;
+  transform: translateZ(40deg);
+}
+
+.wrapper-project{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+ 
+}
+
+.wrapper-project .soon{
+  position: absolute;
+  top: 32em;
+  width: 100px;
+  transform: rotate(30deg);
+  
+  
 }

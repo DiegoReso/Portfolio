@@ -10,6 +10,7 @@
 .header{
  position: fixed;
  width: 1200px;
+ z-index: 1;
 }
 
 .wrapper{
@@ -26,7 +27,7 @@
   display: inline-flex;
   align-self: center;
   justify-content: flex-start;
-  margin-left: 10px;
+  margin-left: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: .3rem;
   font-size: 7rem;
@@ -35,8 +36,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: #ffffff75;
   animation: move 10s linear infinite;
-  margin-top: 35px;
-  text-shadow: 5px 10px 1px rgb(255, 255, 255);
+  margin-top: 70px;
+  text-shadow: 5px 10px 0 rgb(255, 255, 255);
 }
 
 
@@ -48,7 +49,7 @@
 
 .header h1 span{
   font-size: 25px;
-  color: lightcoral;
+  color: rgb(197, 192, 192);
   padding-top: 10px;
 }
 
@@ -69,11 +70,14 @@
   outline: none;
   font-size: 18px;
   margin: 1em 0.8em;
+  color: rgb(197, 192, 192);
+  border-bottom-color: rgb(197, 192, 192);
+  border-right-color: rgb(197, 192, 192);
+  border-top-color: rgb(197, 192, 192);
+  border-left-color: rgb(197, 192, 192);
 }
 
-.button.effect1 {
-  color: lightblue;
-}
+
 
 .button.effect1.effect1::after,
 .button.effect1.effect1::before {
@@ -92,8 +96,7 @@
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: lightblue;
-  border-right-color: lightblue;
+ 
 }
 
 .button.effect1.effect1::before {
@@ -101,8 +104,7 @@
   left: 0;
   border-bottom-color: transparent;
   border-right-color: transparent;
-  border-top-color: lightblue;
-  border-left-color: lightblue;
+ 
 }
 
 .button.effect1.effect1:hover:after,
@@ -111,9 +113,7 @@
   height: 100%;
 }
 
-.button.effect2 {
-  color: lightcoral;
-}
+
 
 .button.effect2.effect2:after,
 .button.effect2.effect2:before {
@@ -124,7 +124,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: lightcoral;
+  background-color: rgb(197, 192, 192);
   transition: all 0.3s ease;
   transform: scale(0.85);
 }
@@ -136,10 +136,6 @@
 
 .button.effect2.effect2:hover:after {
   transform: scale(1);
-}
-
-.button.effect3 {
-  color: rgb(243, 49, 35);
 }
 
 .button.effect3.effect3::after,
@@ -159,8 +155,7 @@
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: rgb(240, 72, 72);
-  border-right-color: rgb(240, 72, 72);
+ 
 }
 
 .button.effect3.effect3::before {
@@ -168,23 +163,19 @@
   left: 0;
   border-bottom-color: transparent;
   border-right-color: transparent;
-  border-top-color: rgb(240, 72, 72);
-  border-left-color: rgb(240, 72, 72);
+ 
 }
 
 .button.effect3.effect3:hover:after,
 .button.effect3.effect3:hover:before {
-  border-bottom-color: rgb(240, 72, 72);
-  border-right-color: rgb(240, 72, 72);
-  border-top-color: rgb(240, 72, 72);
-  border-left-color: rgb(240, 72, 72);
+  border-bottom-color: rgb(197, 192, 192);
+  border-right-color: rgb(197, 192, 192);
+  border-top-color: rgb(197, 192, 192);
+  border-left-color: rgb(197, 192, 192);
   width: 100%;
   height: 100%;
 }
 
-.button.effect4 {
-  color: rgb(224, 224, 95);
-}
 
 .button.effect4.effect4:after,
 .button.effect4.effect4:before {
@@ -195,7 +186,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: rgb(224, 224, 95);
+  background-color: rgb(197, 192, 192);
   transition: all 0.3s ease;
   transform: scale(0.85);
 }
