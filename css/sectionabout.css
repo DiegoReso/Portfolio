@@ -28,9 +28,7 @@
 
 
 
-
-
-.hide{
+.arrow{
   position: relative;
   top: -60px;
   transform: rotateZ(40deg);

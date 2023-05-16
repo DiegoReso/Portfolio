@@ -1,6 +1,6 @@
-.whats{
-  width: 150px;
-  position: fixed;
-  bottom: 5px;
-  right: 0;
+
+footer{
+  background-color: rgb(70, 69, 69);
+  height: 10vh;
 }
+

@@ -1,24 +1,113 @@
 .contacts{
   height: 100vh;
   background-color: rgb(20, 16, 24);
+  position: relative;
+  padding-top: 50px;
 }
 
 .contacts figure{
   display: flex;
   width: 1200px;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   
  
 }
 
 .contacts img{
   width: 100px;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .contacts h3{
   padding-top: 150px;
   font-size: 35px;
   text-align: center;
+}
+
+.contacts figure img  {
+  cursor: pointer;
+}
+
+.whats{
+ 
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+#git:hover, #insta:hover, #linkedin:hover{
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 253, 253, 0.9)); 
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.9));
+}
+
+
+.socials .git{
+  border-radius: 3px;
+  position: absolute;
+  border: 1px solid grey;
+  padding: 3px;
+  top: 350px;
+  left: 140px;
+  width: 150px;
+  
+}
+
+.socials .git:hover, .insta:hover, .linkedin:hover{
+  box-shadow: 0 0 3px white;
+}
+
+
+
+.socials .arrow-git{
+  position: absolute;
+  top: 350px;
+  left: 310px;
+  transform: rotateZ(360deg);
+  transform: rotateX(180deg);
+}
+
+.socials .insta{
+  position: absolute;
+  top: -10px;
+  left: 510px;
+  width: 150px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding: 3px;
+}
+
+.socials .arrow-insta{
+  position: absolute;
+  top: 130px;
+  left: 530px;
+  transform: rotateZ(-90deg);
+  
+}
+
+
+.socials .linkedin{
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding: 3px;
+  position: absolute;
+  top: 150px;
+  right: 140px;
+  width: 150px;
+  
+}
+
+.socials .arrow-linkedin{
+  position: absolute;
+  top: 250px;
+  right:300px;
+  transform: rotateZ(120deg);
+}
+
+.hide{
+  display: none;
+}
+
+.visible{
+  display: block;
 }
