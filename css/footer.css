@@ -1,6 +1,16 @@
 
 footer{
   background-color: rgb(70, 69, 69);
-  height: 10vh;
+  height: 8vh;
+  text-align: center;
+
 }
 
+footer p{
+  padding-top: 20px;
+}
+
+footer p:nth-child(2)
+{
+  padding-top: 5px;
+}
