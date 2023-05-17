@@ -68,7 +68,7 @@ spanMenu.addEventListener('click', function(){
 
     if(flag === 0){
       lists.classList.add('visible')
-      spanMenu.innerHTML = '<i id="menu" class="fas fa-times fa-lg"></i>'
+      spanMenu.innerHTML = '<i id="menux" class="fas fa-times fa-lg"></i>'
       flag = 1
     }else{
       flag = 0
