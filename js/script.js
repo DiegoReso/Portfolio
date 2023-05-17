@@ -60,4 +60,21 @@ linkedin.addEventListener('click', function(){
 
 
 
+const lists = document.querySelector('#lists')
+const spanMenu = document.querySelector('#span')
+let flag =0
 
+spanMenu.addEventListener('click', function(){
+
+    if(flag === 0){
+      lists.classList.add('visible')
+      spanMenu.innerHTML = '<i id="menu" class="fas fa-times fa-lg"></i>'
+      flag = 1
+    }else{
+      flag = 0
+      spanMenu.innerHTML= '<i id="menu" class="fas fa-bars fa-lg">'
+      lists.classList.remove('visible')
+    }
+    
+
+})

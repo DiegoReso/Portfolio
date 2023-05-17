@@ -28,3 +28,21 @@ body {
   background-color:rgba(214, 214, 214, 0.671) ;
   color: white;
 }
+
+.hide,.hide1{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+
+@media (max-width: 430px){
+
+  .hide{
+    display: block;
+  }
+
+  
+}
