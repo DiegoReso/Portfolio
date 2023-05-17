@@ -43,7 +43,7 @@ padding-top: 30px;
   }
 
   .projects h2{
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 20px;
   }
 
@@ -53,6 +53,7 @@ padding-top: 30px;
   
   .projects .construct {
     width: 350px;
+    margin-top: 50px;
   }
 
   .wrapper-project .soon{
@@ -60,5 +61,7 @@ padding-top: 30px;
     width: 70px;
   }
 
-
+  .wrapper-project{
+    width: 429px;
+  }
 }
