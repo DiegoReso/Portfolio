@@ -34,3 +34,25 @@
   transform: rotateZ(40deg);
 
 }
+
+@media (max-width: 430px){
+  .about{
+    width: 430px;
+    height: 90vh;
+  }
+
+  .about article{
+    width: 400px;
+  }
+
+  .arrow{
+    top: -20px;
+    transform: rotateZ(60deg);
+    left: 20px;
+  }
+
+  .about article img{
+    width: 60px;
+  }
+}
+

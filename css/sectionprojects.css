@@ -33,6 +33,32 @@ padding-top: 30px;
   top: 37em;
   width: 100px;
   transform: rotate(30deg);
+
+}
+
+@media (max-width: 430px){
+
+  .projects{
+    width: 430px;
+  }
+
+  .projects h2{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .projects h3{
+    font-size: 18px;
+  }
   
-  
+  .projects .construct {
+    width: 350px;
+  }
+
+  .wrapper-project .soon{
+    top: 24em;
+    width: 70px;
+  }
+
+
 }
