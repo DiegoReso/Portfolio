@@ -108,6 +108,7 @@
 @media(max-width: 430px){
   .contacts{
     width: 430px;
+    height: 90vh;
   }
   
   .contacts img{
