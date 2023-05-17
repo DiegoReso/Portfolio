@@ -1,6 +1,6 @@
 .contacts{
   height: 100vh;
-  background-color: rgb(20, 16, 24);
+  background-color: rgba(20, 16, 24, 0.836);
   position: relative;
   padding-top: 50px;
 }
