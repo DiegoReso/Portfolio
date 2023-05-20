@@ -14,6 +14,7 @@
   }
 
 #menux{
+  display: none;
   position: absolute;
   right: 52px;
   bottom: 20px;
@@ -256,7 +257,7 @@
     display: none;
   }
   
-  #menu{
+  #menu,#menux{
     display: block;
   }
 }
