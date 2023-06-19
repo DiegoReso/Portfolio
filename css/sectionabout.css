@@ -15,9 +15,10 @@
   gap: 20px;
 }
 
-
-.about article figure{
-  text-align: center;
+.about figure{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .about article img{
@@ -25,8 +26,6 @@
   margin-top: 30px;
   
 }
-
-
 
 .arrow{
   position: relative;
@@ -56,3 +55,9 @@
   }
 }
 
+@media (min-width: 420px) and (orientation: landscape){
+  .about{
+    height: 750px;
+    padding-top: 100px;
+  }
+}

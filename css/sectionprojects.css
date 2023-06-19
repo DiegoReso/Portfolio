@@ -30,7 +30,7 @@ padding-top: 30px;
 
 .wrapper-project .soon{
   position: absolute;
-  top: 34em;
+  top: 32em;
   width: 100px;
   transform: rotate(30deg);
 
@@ -65,4 +65,12 @@ padding-top: 30px;
   .wrapper-project{
     width: 429px;
   }
+}
+
+@media (min-width: 420px) and (orientation: landscape){
+  .projects{
+    height: 850px;
+    padding-top: 15px;
+  }
+  
 }

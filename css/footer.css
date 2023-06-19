@@ -1,13 +1,14 @@
 
 footer{
   background-color: rgb(70, 69, 69);
-  height: 8vh;
+  height:1vh;
   text-align: center;
 
 }
 
 footer p{
   padding-top: 20px;
+  font-size: 12px;
 }
 
 footer p:nth-child(2)
@@ -23,7 +24,14 @@ footer p:nth-child(2)
   }
 
   footer p{
-    padding-top: 2px;
-    font-size: 12px
+    padding-top: 1px;
+    font-size: 8px
+  }
+}
+
+@media (orientation:landscape){
+  footer{
+    height: 80px;
+    padding-top: 1px;
   }
 }

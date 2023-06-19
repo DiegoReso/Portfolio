@@ -176,4 +176,16 @@
   width: 70px;
 }
 
+.wrapper-project .soon{
+  top: 29em;
+  width: 70px;
+}
+
+}
+
+@media (min-width: 420px) and (orientation: landscape){
+  .contacts{
+    height: 840px;
+   
+  }
 }
