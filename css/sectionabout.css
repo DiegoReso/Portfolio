@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .about article img{
@@ -29,7 +30,7 @@
 
 .arrow{
   position: relative;
-  top: -60px;
+  top: -18px;
   transform: rotateZ(40deg);
 
 }
@@ -45,7 +46,7 @@
   }
 
   .arrow{
-    top: -20px;
+    top: -15px;
     transform: rotateZ(60deg);
     left: 20px;
   }
